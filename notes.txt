@@ -1,0 +1,64 @@
+Working directory --> Staging Area --> Git repository.
+
+Working directory is the directory where you initialize your repository,
+i.e, git init
+here it is Story directory. After this .git folder (hidden) comes.
+
+Then we have to git add filename
+We now come to staging area. This area tracks all the changes.
+It determines which files to add changes to.
+
+Then git commit -m "Message"
+Now our file is under local repository and that version is given a name using commit message.
+
+git checkout filename
+Do this to delete current version of file and come back to previous version.
+
+We learnt about local git implementations. i.e, saving changes to local computers.
+
+
+
+git remote add origin url
+
+When we want to add existing repository from command line,
+this is basically telling local git that I have created a remote repository and name of remote is origin.
+url of remote git repo.
+Now we can push our local repo to remote repo which is called origin.
+
+
+git branch -M main
+git push -u origin main
+
+
+
+
+
+git rm --cached -r.
+remove all files from staging area.
+
+
+To create new txt file in powershell,
+New-Item C:\Users\etc
+
+
+
+
+
+.gitignore lets us not show some imp files in github repo
+For git ignore,
+New-Item location\.gitignore
+
+
+
+
+BRANCH
+
+git branch branchname
+This creates a new branch.
+
+git branch
+this shows all branches and branch you currently are in with green.
+
+git checkout branchname
+Switches the branch to given branchname.
+
